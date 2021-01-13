@@ -1,4 +1,21 @@
+
+
+/****************************************** Header***************************************/
+
+
+
 .header-bg{
-    background-color: aqua;
+    background-color: rgb(231, 208, 178);
     padding: 40px;
+}
+.header-text h2{
+    line-height: 40px;
+    font-size: 41px;
+    margin-top: 0;
+}
+.text-color{
+    color: tomato
+}
+.nav-bg-custom{
+    background-color:transparent;
 }
