@@ -18,4 +18,13 @@
 }
 .nav-bg-custom{
     background-color:transparent;
+
+}
+
+.card-last-part{
+    border: none;
+    background-color: white;
+}
+.btn-color{
+    color:white;
 }
