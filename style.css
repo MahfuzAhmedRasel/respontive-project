@@ -5,7 +5,7 @@
 
 
 .header-bg{
-    background-color: rgb(231, 208, 178);
+    background-color: cyan;
     padding: 40px;
 }
 .header-text h2{
@@ -21,12 +21,18 @@
 
 }
 
+.move-ul-right{
+    margin-left: auto;
+}
+
+
 .card-last-part{
     border: none;
     background-color: white;
 }
 .btn-color{
     color:white;
+    background-color: blue;
 }
 
 
@@ -51,3 +57,18 @@
    width: 100px;
     border-radius: 50%;
 }
+
+/*-----------------------------------------Contact Part--------------------------*/
+.bg-contact{
+    background-color: cyan;
+    height: 500px;
+    border-radius: 10px;
+}
+.subscribe-btn{
+    background-color: rgba(27, 27, 196, 0.877);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 3px 5px;
+}
+/***-------------------------Footer------------------------***/

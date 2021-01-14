@@ -13,23 +13,23 @@
     <header class="header-bg">
         <nav class="navbar navbar-expand-lg navbar-light container  nav-bg-custom">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"> <span class = "text-color">NIKE</span> REACT</a>
+              <a class="navbar-brand" href="index.html"> <h1> <span class = "text-color">NIKE</span> REACT</a></h1>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav move-ul-right">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link" href="#casual">Product</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#about">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#">Contact Us</a>
+                    <a class="nav-link " href="#contact">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -59,7 +59,7 @@
     <main class="container">
 
                     <!------------1st------------>
-        <div class="casual-part">
+        <div class="casual-part" id="casual">
           <h2 class="mt-5">CASUAL SHOES</h2>
           <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 ">
          
@@ -73,7 +73,7 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between card-last-part">
-                    <h3>$204</h3>
+                    <h3 class="text-color">$204</h3>
                     <div class="btn btn-info btn-color"> <i class="fas fa-shopping-cart"></i> BUY NOW</div>
                   </div>
               </div>
@@ -88,7 +88,7 @@
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between  card-last-part">
-                    <h3>$211</h3>
+                    <h3 class="text-color">$211</h3>
                     <div class="btn btn-info btn-color"> <i class="fas fa-shopping-cart"></i> BUY NOW</div>
                   </div>
               </div>
@@ -103,7 +103,7 @@
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between card-last-part">
-                    <h3>$354</h3>
+                    <h3 class="text-color">$354</h3>
                     <div class="btn btn-info  btn-color"> <i class="fas fa-shopping-cart"></i> BUY NOW</div>
                   </div>
               </div>
@@ -125,7 +125,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>
               <div class="card-footer d-flex justify-content-between card-last-part">
-                  <h3>$224</h3>
+                  <h3 class="text-color">$224</h3>
                   <div class="btn btn-info btn-color"> <i class="fas fa-shopping-cart"></i> BUY NOW</div>
                 </div>
             </div>
@@ -140,7 +140,7 @@
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
               </div>
               <div class="card-footer d-flex justify-content-between card-last-part">
-                <h3>$254</h3>
+                <h3 class="text-color">$254</h3>
                 <div class="btn btn-info btn-color"> <i class="fas fa-shopping-cart"></i> BUY NOW</div>
               </div>
             </div>
@@ -155,7 +155,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
               <div class="card-footer card-last-part d-flex justify-content-between">
-                  <h3>$154</h3>
+                  <h3 class="text-color">$154</h3>
                   <div class="btn btn-info btn-color"> <i class="fas fa-shopping-cart"></i> BUY NOW</div>
                 </div>
             </div>
@@ -198,7 +198,7 @@
 
             <!-----------Customer Review Part----------------------->
 
-          <div class="customet-review">
+          <div class="customet-review " id="about">
             <h2 class="mt-5">CUSTOMER REVIEW</h2>
           <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
             <div class="col">
@@ -269,6 +269,19 @@
 
           </div>
     </main>
+          <!---------------------------------------Contact Part--------------------------->
+    <section class="container d-flex justify-content-center p-5 mt-5 align-items-center bg-contact" id="contact">
+        <div class="p-5">
+          <h2>LET'S STAY IN TOUCH</h2>
+          <h4>Get updates on sales, specials and more</h4>
+          <input type="text" class="input-text">
+          <input class="subscribe-btn" type="submit" value="Subscribe">
+
+        </div>
+    </section>
+    <footer class="container m-5 d-flex justify-content-center">
+        <small>Copyright © 2021 Programming-hero.com</small>
+    </footer>
 
 
 
