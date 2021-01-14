@@ -28,3 +28,26 @@
 .btn-color{
     color:white;
 }
+
+
+/******************************************Card Part********************************/
+.casual-img{
+    background-color: rgba(223, 215, 215, 0.767);
+    border: 15px solid white;
+    border-radius: 20px;
+}
+
+/***************************************Costomer Part**************************/
+
+.custom-rating ul{
+    list-style: none;
+}
+.custom-rating ul li{
+    color: rgb(255, 115, 0);
+    margin-right: 4px;
+}
+
+.customer-img img{
+   width: 100px;
+    border-radius: 50%;
+}
